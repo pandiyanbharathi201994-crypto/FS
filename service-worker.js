@@ -1,6 +1,6 @@
 /* Cache the static PWA shell and its lesson data. */
 'use strict';
-const CACHE_NAME = 'codepath-static-v11';
+const CACHE_NAME = 'codepath-static-v12';
 const APP_SCOPE = new URL(self.registration.scope);
 const ASSETS = [
   'index.html',
@@ -12,10 +12,10 @@ const ASSETS = [
   'html-tutorial.json',
   'manifest.json',
   'offline.html',
-  'icons/codepath.svg',
-  'icons/codepath-192.png',
-  'icons/codepath-512.png',
-  'icons/codepath-maskable-512.png'
+  'codepath.svg',
+  'codepath-192.png',
+  'codepath-512.png',
+  'codepath-maskable-512.png'
 ].map(path => new URL(path, APP_SCOPE).href);
 const OFFLINE_URL = new URL('offline.html', APP_SCOPE).href;
 const APP_URL = new URL('index.html', APP_SCOPE).href;

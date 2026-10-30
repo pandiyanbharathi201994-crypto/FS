@@ -11,19 +11,19 @@
   "background_color": "#f6f7fb",
   "icons": [
     {
-      "src": "icons/codepath-192.png",
+      "src": "codepath-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "icons/codepath-512.png",
+      "src": "codepath-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "icons/codepath-maskable-512.png",
+      "src": "codepath-maskable-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
